@@ -1,0 +1,173 @@
+Easy Questions:
+
+        Write a Python program to swap two variables without using a temporary variable.
+        Write a program to check if a given number is even or odd.
+        Write a Python program to find the maximum of three numbers.
+        Write a program to calculate the factorial of a number using a loop.
+        Write a Python program to check if a given year is a leap year.
+        Write a program to calculate the sum of all even numbers between 1 and 100.
+        Write a Python program to convert a temperature in Celsius to Fahrenheit.
+        Write a program to print the multiplication table of a given number.
+        Write a Python program to find the length of a string without using the len() function.
+        Write a program to check if a given string is a palindrome.
+
+Medium Questions:
+
+        Write a Python program to count the number of vowels in a given string.
+        Write a program to find the second-largest number in a list of integers.
+        Write a Python program to find the prime numbers between 1 and 100.
+        Write a program to find the sum of all elements in a list.
+        Write a Python program to find the factorial of a number using recursion.
+        Write a program to remove duplicates from a list.
+        Write a Python program to reverse a string.
+        Write a program to check if a given number is a perfect number.
+        Write a Python program to find the largest and smallest elements in a list.
+        Write a program to generate the Fibonacci sequence up to a given number.
+
+Hard Questions:
+
+        Write a Python program to sort a list of strings based on the length of each string.
+        Write a program to check if a given number is a prime number.
+        Write a Python program to find the GCD (Greatest Common Divisor) of two numbers.
+        Write a program to reverse a number and check if it is a palindrome.
+        Write a Python program to check if a given string is an anagram of another string.
+       
+
+Tricky Questions
+
+        Write a Python program to swap the values of two variables without using arithmetic or assignment operators.
+        Write a program to check if a string is a valid email address according to a specific format.
+        Write a Python program to reverse a sentence without reversing the order of words.
+        Write a program to find the median of a list of numbers without using the built-in median function.
+        Write a Python program to find the longest consecutive sequence of characters in a string.
+        Write a program to check if a given list is a subset of another list.
+        Write a Python program to generate all possible permutations of a given list of numbers.
+        Write a program to find the largest prime palindrome less than a given number.
+        Write a Python program to calculate the square root of a number without using any built-in functions.
+        Write a Python program to find the sum of the digits of a given number.
+        Write a program to check if a given string is a valid palindrome ignoring non-alphanumeric characters.
+        Write a Python program to check if a given number is a perfect square.
+        Write a program to find the frequency of each element in a list.
+
+
+More Problems:
+        Problem: Write a Python function called calculate_average that takes a list of numbers as input and returns their average.
+
+        Problem: Write a Python function called find_largest that takes a list of numbers as input and returns the largest number in the list.
+
+        Problem: Write a Python function called reverse_string that takes a string as input and returns the reverse of the string.
+
+        Problem: Write a Python function called count_vowels that takes a string as input and returns the count of vowels (a, e, i, o, u) in the string.
+
+        Problem: Write a Python function called is_prime that takes an integer as input and returns True if it is a prime number, False otherwise.
+
+        Problem: Write a Python function called remove_duplicates that takes a list as input and returns a new list with duplicates removed.
+
+        Problem: Write a Python function called factorial that takes a positive integer as input and returns its factorial.
+
+        Problem: Write a Python function called is_palindrome that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), False otherwise.
+
+        Problem: Write a Python function called find_common_elements that takes two lists as input and returns a new list containing the common elements between the two lists.
+
+        Problem: Write a Python function called binary_search that takes a sorted list and a target value as input and returns the index of the target value in the list, or -1 if it is not found.
+
+        Problem: Write a Python function called capitalize_words that takes a sentence as input and returns the sentence with the first letter of each word capitalized.
+
+        Problem: Write a Python function called find_missing_number that takes a list of consecutive numbers (with one number missing) as input and returns the missing number.
+
+        Problem: Write a Python function called find_longest_word that takes a sentence as input and returns the longest word in the sentence.
+
+        Problem: Write a Python function called is_anagram that takes two strings as input and returns True if they are anagrams (contain the same characters in a different order), False otherwise.
+
+        Problem: Write a Python function called merge_sorted_lists that takes two sorted lists as input and returns a new list that merges the two lists while maintaining the sorted order.
+
+        Problem: Write a Python function called calculate_average that takes a list of numbers as input and returns their average.
+
+        Problem: Write a Python function called find_largest that takes a list of numbers as input and returns the largest number in the list.
+
+        Problem: Write a Python function called reverse_string that takes a string as input and returns the reverse of the string.
+
+        Problem: Write a Python function called count_vowels that takes a string as input and returns the count of vowels (a, e, i, o, u) in the string.
+
+        Problem: Write a Python function called is_prime that takes an integer as input and returns True if it is a prime number, False otherwise.
+
+        Problem: Write a Python function called remove_duplicates that takes a list as input and returns a new list with duplicates removed.
+
+        Problem: Write a Python function called factorial that takes a positive integer as input and returns its factorial.
+
+        Problem: Write a Python function called is_palindrome that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), False otherwise.
+
+        Problem: Write a Python function called find_common_elements that takes two lists as input and returns a new list containing the common elements between the two lists.
+
+        Problem: Write a Python function called binary_search that takes a sorted list and a target value as input and returns the index of the target value in the list, or -1 if it is not found.
+
+        Problem: Write a Python function called capitalize_words that takes a sentence as input and returns the sentence with the first letter of each word capitalized.
+
+        Problem: Write a Python function called find_missing_number that takes a list of consecutive numbers (with one number missing) as input and returns the missing number.
+
+        Problem: Write a Python function called find_longest_word that takes a sentence as input and returns the longest word in the sentence.
+
+        Problem: Write a Python function called is_anagram that takes two strings as input and returns True if they are anagrams (contain the same characters in a different order), False otherwise.
+
+        Problem: Write a Python function called merge_sorted_lists that takes two sorted lists as input and returns a new list that merges the two lists while maintaining the sorted order.
+
+
+Python OOPS questions:
+        Question: Create a class called Rectangle with attributes length and width. Implement methods to calculate the area and perimeter of the rectangle.
+
+        Question: Create a class called Circle with attribute radius. Implement methods to calculate the area and circumference of the circle.
+
+        Question: Create a class called Employee with attributes name, age, and salary. Implement a method called increase_salary that takes a percentage increase as input and updates the employee's salary accordingly.
+
+        Question: Create a class called BankAccount with attributes account_number, holder_name, and balance. Implement methods to deposit and withdraw funds from the account.
+
+        Question: Create a class called Car with attributes make, model, and year. Implement a method called start_engine that prints a message indicating the car has started.
+
+        Question: Create a class called Student with attributes name, age, and grades (a list of integers). Implement methods to calculate the average grade and determine if the student has passed (average grade >= 60).
+
+        Question: Create a class called Book with attributes title, author, and year. Implement a method called get_age that returns the age of the book (current year - publication year).
+
+        Question: Create a class called Shape with an abstract method called calculate_area. Create two subclasses Rectangle and Triangle that inherit from Shape and implement the calculate_area method accordingly.
+
+        Question: Create a class called Person with attributes name and address. Create a subclass Student that inherits from Person and adds an attribute student_id. Implement a method in the Student class to display student information.
+
+        Question: Create a class called Bank with a dictionary attribute accounts, where the keys are account numbers and the values are instances of a BankAccount class. Implement methods to add accounts, retrieve account information, and perform transactions like deposit and withdrawal.
+
+Python  inheritance, polymorphism, and encapsulation
+
+
+        Question: Create a class called Shape with attributes color and filled. Implement subclasses Circle and Rectangle that inherit from Shape. Override the calculate_area method in each subclass to calculate the area of the respective shape. Demonstrate polymorphism by creating instances of both subclasses and calling the calculate_area method.
+
+        Question: Create a class called Animal with a method called make_sound. Implement subclasses Dog and Cat that inherit from Animal. Override the make_sound method in each subclass to produce the appropriate sound for the animal. Demonstrate polymorphism by creating instances of both subclasses and calling the make_sound method.
+
+        Question: Create a class called Person with attributes name and age. Implement a subclass called Employee that inherits from Person and adds an attribute employee_id. Demonstrate encapsulation by making the name and age attributes private and providing getter and setter methods to access and modify them.
+
+        Question: Create a class called BankAccount with attributes account_number and balance. Implement subclasses CheckingAccount and SavingsAccount that inherit from BankAccount. Add specific methods for each subclass, such as withdraw and deposit. Demonstrate inheritance by creating instances of both subclasses and calling their specific methods.
+
+        Question: Create a class called Vehicle with attributes make and model. Implement a subclass called Car that inherits from Vehicle and adds an attribute num_doors. Implement a subclass called Motorcycle that inherits from Vehicle and adds an attribute top_speed. Demonstrate inheritance by creating instances of both subclasses and accessing their attributes.
+
+        Question: Create a class called Shape with an abstract method called calculate_area. Implement subclasses Circle and Rectangle that inherit from Shape and implement the calculate_area method accordingly. Demonstrate polymorphism by creating instances of both subclasses and calling the calculate_area method.
+
+        Question: Create a class called Employee with attributes name, age, and salary. Implement a subclass called Manager that inherits from Employee and adds an attribute department. Demonstrate encapsulation by making the salary attribute protected and providing a method to access it within the Manager class.
+
+        Question: Create a class called Animal with a method called make_sound. Implement subclasses Dog, Cat, and Bird that inherit from Animal. Override the make_sound method in each subclass to produce the appropriate sound for the animal. Demonstrate polymorphism by creating a list of animal objects and calling the make_sound method for each object.
+
+        Question: Create a class called BankAccount with attributes account_number and balance. Implement methods to deposit and withdraw funds from the account. Add a class variable called total_accounts to keep track of the total number of bank accounts created.
+
+        Question: Create a class called Shape with an abstract method called calculate_area. Implement subclasses Rectangle, Triangle, and Circle that inherit from Shape and implement the calculate_area method accordingly. Create a list of different shapes and calculate their respective areas using polymorphism.
+
+        Question: Create a class called Vehicle with attributes make and model. Implement a method called start_engine that prints a message indicating the vehicle has started. Implement subclasses Car and Motorcycle that inherit from Vehicle and override the start_engine method to provide vehicle-specific messages.
+
+        Question: Create a class called Library with a dictionary attribute books, where the keys are book titles and the values are instances of a Book class. Implement methods to add books, retrieve book information, and search for books by title or author.
+
+        Question: Create a class called Student with attributes name, age, and grades (a list of integers). Implement a method called calculate_average_grade to calculate the average grade of the student. Add a class method called from_csv that creates a new Student instance from a CSV file containing student information.
+
+        Question: Create a class called Shape with attributes color and filled. Implement subclasses Rectangle and Circle that inherit from Shape and override the __str__ method to provide a string representation of each shape, including its color and whether it is filled.
+
+        Question: Create a class called Playlist with attributes name and songs (a list of song titles). Implement methods to add songs to the playlist, remove songs from the playlist, and shuffle the order of the songs.
+
+        Question: Create a class called Bank with attributes name and branches (a list of branch names). Implement a method to add a new branch to the bank. Implement a subclass called OnlineBank that inherits from Bank and adds an attribute website to represent the bank's online platform.
+
+        Question: Create a class called Email with attributes sender, recipients (a list of email addresses), and message. Implement a method to send the email to all recipients.
+
+        Question: Create a class called ChessPiece with an abstract method called move. Implement subclasses Pawn, Rook, Knight, Bishop, Queen, and King that inherit from ChessPiece and provide specific implementations of the move method for each piece.

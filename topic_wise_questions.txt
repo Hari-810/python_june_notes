@@ -1,0 +1,155 @@
+Python Basic Questions:
+
+            What are the key features of Python, and how do they make it a useful programming language?
+            How does Python compare to other programming languages, such as Java or C++?
+            What is the purpose of Python, and what kinds of tasks is it best suited for?
+            What is the Python standard library, and what kinds of modules does it contain?
+            What are some popular Python frameworks and libraries, and how are they used?
+            What is the role of Python in the field of data science, and how is it used for data analysis and machine learning?
+            What are some common coding challenges that Python developers face, and how do you approach solving them?
+            How do you optimize Python code for performance, and what techniques do you use to identify bottlenecks?
+            What is the process of debugging Python code, and what tools are available to help with this?
+            How do you ensure the quality and reliability of Python code, and what kinds of testing frameworks and methodologies are commonly used?
+            What is the difference between Python 2 and Python 3, and which version do you prefer to use?
+            How do you manage dependencies and package versions in Python projects, and what tools do you use for this?
+            What is the GIL (Global Interpreter Lock) in Python, and how does it affect performance and concurrency?
+            How do you approach optimizing and scaling Python applications, and what tools and techniques do you use for this?
+            What are some common design patterns and best practices for Python development, and how do you apply them in your projects?
+            How do you approach debugging and troubleshooting Python applications, and what tools and techniques do you use for this?
+            What is the role of Python in web development, and what frameworks and tools are commonly used for building web applications?
+            How do you approach testing and quality assurance in Python projects, and what frameworks and methodologies are commonly used?
+            What is the future of Python, and how do you see the language evolving over the next few years?
+
+
+Python Variables & Operators Questions:
+            Create two variables, x and y, and assign them the values 5 and 7, respectively. 
+            Calculate the sum of x and y and store it in a new variable called z.
+            What is the difference between a variable and a constant in Python? Provide an example of each.
+            Create a variable called my_string and assign it the value "Hello, world!". Use indexing to print the first character of the string.
+            What is dynamic typing in Python? Explain with an example.
+            What is the difference between the '==' operator and the 'is' operator in Python? Explain with an example.
+            What is the 'not' operator in Python? Provide an example.
+            What is the difference between a variable and a constant in Python? Provide an example of each.
+            What is dynamic typing in Python? Explain with an example.
+            Write a Python program to find the area of a rectangle using variables. Assume the length and width of the rectangle are 4 and 5, respectively.
+            Create a variable called my_float and assign it the value 3.14159. Print the variable and its data type.
+            Write a Python program that calculates the sum of two numbers using variables. Assume the numbers are 10 and 20, respectively.
+            Write a Python program that calculates the average of three numbers using variables. Assume the numbers are 10, 20, and 30, respectively.
+            What is the modulus operator in Python? Provide an example.
+            What is the identity operator in Python? Explain with an example.
+            Write a Python program that swaps the values of two variables using variables. Assume the variables are x=5 and y=10.
+            What is the difference between the 'and' operator and the 'or' operator in Python? Explain with an example.
+            What is the 'not' operator in Python? Provide an example.
+
+
+Python Input & Strings Questions:
+            Write a Python program that asks the user to enter their name and age, and then prints out a message that says "Hello, [name]! You are [age] years old."
+            Write a Python program that calculates the area of a rectangle. The program should ask the user to enter the length and width of the rectangle, and then print out the area.
+            Write a Python program that asks the user to enter a string, and then prints out the length of the string.
+            Write a Python program that asks the user to enter two numbers, and then prints out whether the first number is greater than, less than, or equal to the second number.
+            Write a Python program that asks the user to enter a string, and then prints out the string in reverse order.
+            Write a Python program that asks the user to enter a number, and then prints out whether the number is even or odd.
+            Write a Python program that asks the user to enter a temperature in Fahrenheit, and then converts it to Celsius. The formula for converting Fahrenheit to Celsius is (F - 32) * 5/9.
+            Write a Python program that calculates the average of three numbers. The program should ask the user to enter three numbers, and then print out their average.
+            Write a Python program that asks the user to enter a string, and then checks if the string contains the letter "e". If the string contains "e", print out a message that says "The string contains the letter e." If the string does not contain "e", print out a message that says "The string does not contain the letter e."
+            Write a Python program that asks the user to enter a password. If the password contains less than 8 characters, print out a message that says "Password too short." If the password contains 8 or more characters, print out a message that says "Password accepted."
+            Write a Python program that asks the user to enter a number between 1 and 10. If the user enters a number outside of this range, print out a message that says "Invalid input." If the user enters a number within this range, print out a message that says "Valid input."
+            Write a Python program that asks the user to enter a sentence, and then counts the number of words in the sentence.
+            Write a Python program that asks the user to enter a string, and then prints out the string with all the vowels replaced by the letter "x".
+            Write a Python program that asks the user to enter a number, and then checks if the number is a multiple of 3. If the number is a multiple of 3, print out a message that says "The number is a multiple of 3." If the number is not a multiple of 3, print out a message that says "The number is not a multiple of 3."
+            Write a Python program that asks the user to enter a string, and then checks if the string starts with the letter "a". If the string starts with "a", print out a message that says "The string starts with the letter a." If the string does not start with "a", print out a message that says "The string does not start with the letter a."
+            Write a Python program that asks the user to enter a number between 1 and 100. If the number is a multiple of both 3 and 5, print out a message that says "FizzBuzz". If the number is a multiple of only 3, print out a message that says "Fizz". If the number is a multiple of only 5, print out a message that says "Buzz". If the number is not a multiple of 3 or 5, print out the number itself.
+            Write a Python program that asks the user to enter a string, and then checks if the string is a palindrome (i.e. the same forwards and backwards) without using any built-in string methods.
+            Write a Python program that asks the user to enter a password. If the password is "password123", print out a message that says "Access granted." If the password is anything else, print out a message that says "Access denied."
+            Write a Python program that asks the user to enter a number, and then prints out whether the number is positive, negative, or zero.
+            Write a Python program that asks the user to enter a string, and then prints out whether the string is a palindrome (i.e. the same forwards and backwards).
+
+Python Lists Questions:
+
+            What is a list in Python and how is it different from other data structures?
+            How do you create an empty list in Python?
+            How do you add elements to a list in Python?
+            Can a list contain elements of different data types in Python?
+            How do you access elements from a list in Python using indexing?
+            What is the difference between positive and negative indexing in Python lists?
+            How do you update or modify an element in a list in Python?
+            How do you remove elements from a list in Python?
+            How can you check if a specific element exists in a list in Python?
+            What is the difference between the append() and extend() methods in Python lists?
+            How do you find the length of a list in Python?
+            Can you have nested lists in Python? If yes, how do you access elements from nested lists?
+            How do you iterate over elements in a list using a for loop in Python?
+            What is list slicing in Python? How does it work?
+            Can you sort a list in Python? If yes, how can you accomplish it?
+            What is the difference between the sort() and sorted() functions/methods in Python?
+            How do you reverse the order of elements in a list in Python?
+            How can you count the occurrences of a specific element in a list?
+            How do you clear or empty a list in Python?
+            Can you create a list of lists in Python? If yes, how can you access elements from nested lists within the main list?
+
+
+Python Tuple questions:
+            What is a tuple in Python and how is it different from a list?
+            How do you create an empty tuple in Python?
+            Can you modify or update elements in a tuple in Python?
+            How do you access elements from a tuple in Python using indexing?
+            What is the difference between positive and negative indexing in Python tuples?
+            Can a tuple contain elements of different data types in Python?
+            How do you unpack elements from a tuple into separate variables in Python?
+            Can you add or remove elements from a tuple in Python? If not, why?
+            How do you concatenate or combine two tuples in Python?
+            How can you find the length of a tuple in Python?
+            Can you sort a tuple in Python? If yes, how can you accomplish it?
+            How do you convert a tuple into a list in Python?
+            How do you convert a list into a tuple in Python?
+            Can you create a tuple of tuples in Python? If yes, how can you access elements from nested tuples within the main tuple?
+            How do you iterate over elements in a tuple using a for loop in Python?
+            Can a tuple be used as a key in a dictionary in Python? If yes, why?
+            How do you check if a specific element exists in a tuple in Python?
+            What is the difference between a tuple and a named tuple in Python?
+            How do you count the occurrences of a specific element in a tuple?
+            What are some use cases or advantages of using tuples in Python over other data structures?
+
+Python Sets questions:
+            What is a set in Python and what are its key characteristics?
+            How do you create an empty set in Python?
+            Can a set contain duplicate elements in Python?
+            How do you create a set with initial elements in Python?
+            How do you add elements to a set in Python?
+            How do you remove elements from a set in Python?
+            Can you access elements from a set using indexing in Python? Why or why not?
+            How do you find the length of a set in Python?
+            Can you perform mathematical operations like union, intersection, and difference on sets in Python? If yes, how?
+            How do you check if an element exists in a set in Python?
+            What is the difference between a set and a frozenset in Python?
+            How do you iterate over elements in a set using a for loop in Python?
+            Can a set contain elements of different data types in Python?
+            How do you check if two sets are equal in Python?
+            How do you check if one set is a subset or superset of another set in Python?
+            How do you create a shallow copy or clone of a set in Python?
+            How do you clear or empty a set in Python?
+            Can you sort a set in Python? If not, why?
+            How do you convert a set into a list or tuple in Python?
+            What are some common use cases or advantages of using sets in Python?
+
+Python dictionary questions:
+            What is a dictionary in Python and what are its key characteristics?
+            How do you create an empty dictionary in Python?
+            How do you create a dictionary with initial key-value pairs in Python?
+            Can a dictionary contain duplicate keys in Python?
+            How do you access values from a dictionary using keys in Python?
+            How do you add or update key-value pairs in a dictionary in Python?
+            How do you remove key-value pairs from a dictionary in Python?
+            Can you access elements from a dictionary using indexing in Python? Why or why not?
+            How do you find the number of key-value pairs in a dictionary in Python?
+            How do you iterate over keys, values, and key-value pairs in a dictionary in Python?
+            How do you check if a specific key exists in a dictionary in Python?
+            Can a dictionary have values of different data types in Python?
+            How do you retrieve a list of all keys or values from a dictionary in Python?
+            Can you sort a dictionary in Python? If not, why?
+            How do you merge or combine two dictionaries in Python?
+            How do you create a shallow copy or clone of a dictionary in Python?
+            Can a dictionary have nested dictionaries as values in Python? If yes, how do you access elements from nested dictionaries?
+            How do you clear or empty a dictionary in Python?
+            How do you convert a dictionary into a list or tuple in Python?
+            What are some common use cases or advantages of using dictionaries in Python?
