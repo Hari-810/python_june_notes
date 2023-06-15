@@ -1,0 +1,8 @@
+1.Read any csv file
+2.Get the first five rows
+3.Get the last five rows
+4.Get the title column as pandas series
+5.Count the number of rows and columns
+	Filter the titles which contain some specific str
+	Filter the titles which contain some specific str
+	Explore the data and make sense of it

@@ -1,0 +1,12 @@
+Enter the Number of Rows:  # number of rows
+Enter the Number of Seats: # number of columns
+1: Show the Seats
+2: Choose the movie
+3: Choose movie language
+4: Show the time
+5: Buy a Ticket
+6: Statistics
+7: Show booked Tickets User Info
+0: Exit
+
+
