@@ -1,0 +1,45 @@
+Blog:
+    https://www.geeksforgeeks.org/how-to-approach-a-coding-problem/
+
+    https://medium.com/hackernoon/how-to-approach-any-coding-problem-9230f3ad6f9
+
+How Python Works:   
+    https://www.youtube.com/watch?v=-ZPg5lJCln8
+
+Binary code work
+    https://www.youtube.com/watch?v=wgbV6DLVezo
+
+1s and 0s
+    https://www.youtube.com/watch?v=Xpk67YzOn5w
+
+Programming vs Coding
+    https://www.youtube.com/watch?v=CIRGjwYgdT4
+
+
+
+Visualizers:
+    https://algorithm-visualizer.org/
+
+    https://memlayout.com/
+
+    https://codepal.ai/code-visualizer
+
+    https://cscircles.cemc.uwaterloo.ca/visualize#mode=display
+
+    https://pythontutor.com/visualize.html#mode=display
+
+
+basic projects:
+        https://youtu.be/DLn3jOsNRVE
+
+qrsacn generate :
+        https://youtu.be/onHPipeASdk
+
+github upload file:
+        https://youtu.be/eGaImwD8fPQ
+
+streamlit project:
+        https://youtu.be/VqgUkExPvLY
+
+
+
