@@ -20,6 +20,7 @@ Python Basic Questions:
             How do you approach testing and quality assurance in Python projects, and what frameworks and methodologies are commonly used?
             What is the future of Python, and how do you see the language evolving over the next few years?
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Python Variables & Operators Questions:
             Create two variables, x and y, and assign them the values 5 and 7, respectively. 
@@ -40,6 +41,8 @@ Python Variables & Operators Questions:
             Write a Python program that swaps the values of two variables using variables. Assume the variables are x=5 and y=10.
             What is the difference between the 'and' operator and the 'or' operator in Python? Explain with an example.
             What is the 'not' operator in Python? Provide an example.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 Python Input & Strings Questions:
@@ -64,6 +67,8 @@ Python Input & Strings Questions:
             Write a Python program that asks the user to enter a number, and then prints out whether the number is positive, negative, or zero.
             Write a Python program that asks the user to enter a string, and then prints out whether the string is a palindrome (i.e. the same forwards and backwards).
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Python Lists Questions:
 
             What is a list in Python and how is it different from other data structures?
@@ -87,6 +92,7 @@ Python Lists Questions:
             How do you clear or empty a list in Python?
             Can you create a list of lists in Python? If yes, how can you access elements from nested lists within the main list?
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Python Tuple questions:
             What is a tuple in Python and how is it different from a list?
@@ -110,6 +116,8 @@ Python Tuple questions:
             How do you count the occurrences of a specific element in a tuple?
             What are some use cases or advantages of using tuples in Python over other data structures?
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Python Sets questions:
             What is a set in Python and what are its key characteristics?
             How do you create an empty set in Python?
@@ -132,6 +140,8 @@ Python Sets questions:
             How do you convert a set into a list or tuple in Python?
             What are some common use cases or advantages of using sets in Python?
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Python dictionary questions:
             What is a dictionary in Python and what are its key characteristics?
             How do you create an empty dictionary in Python?
@@ -153,3 +163,162 @@ Python dictionary questions:
             How do you clear or empty a dictionary in Python?
             How do you convert a dictionary into a list or tuple in Python?
             What are some common use cases or advantages of using dictionaries in Python?
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Python Conditional Statements Questions
+
+          1. Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years. Output:
+                example:
+                    Enter your age: 30
+
+                    You are old enough to learn to drive.
+
+                    Output:
+
+                    Enter your age: 15
+
+                    You need 3 more years to learn to drive.
+
+            2. Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age. Output:
+                example:
+
+                    Enter your age: 30
+
+                    You are 5 years older than me.
+
+            3. Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
+                example:
+                    Enter number one: 4
+
+                    Enter number two: 3
+
+                    4 is greater than 3
+
+            4. Write a code which gives grade to students according to theirs scores:
+                example:
+                    80-100, A
+
+                    70-89, B
+
+                    60-69, C
+
+                    50-59, D
+
+                    0-49, F
+
+            5. Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
+
+
+            6. The following list contains some fruits:
+                example:
+                    fruits = ['banana', 'orange', 'mango', 'lemon']
+
+                    If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list')
+
+            7. Here we have a person dictionary. Feel free to modify it!
+                    person={
+
+                    'first_name': 'Asabeneh',
+
+                    'last_name': 'Yetayeh',
+
+                    'age': 250,
+
+                    'country': 'Finland',
+
+                    'is_marred': True,
+
+                    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+
+                    'address': {
+
+                    'street': 'Space street',
+
+                    'zipcode': '02210'
+                    }
+                    }
+                * Check if the person dictionary has skills key, if so print out the middle skill in the skills list.
+
+                * Check if the person dictionary has skills key, if so check if the person has 'Python' skill and print out the result.
+
+                * If a person skills has only JavaScript and React, print('He is a front end developer'), if the person skills has Node, Python, MongoDB, print('He is a backend developer'), if the person skills has React, Node and MongoDB, Print('He is a fullstack developer'), else print('unknown title') - for more accurate results more conditions can be nested!
+
+                * If the person is married and if he lives in Finland, print the information in the following format:
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Python Control Statements Questions:
+
+            Iterate 0 to 10 using for loop, do the same using while loop.
+
+            Iterate 10 to 0 using for loop, do the same using while loop.
+
+            Write a loop that makes seven calls to print(), so we get on the output the following triangle:
+                #
+
+                ##
+
+                ###
+
+                ####
+
+                #####
+
+                ######
+
+                #######
+            
+            Use nested loops to create the following:
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+                # # # # # # # #
+
+            Print the following pattern:
+                0 x 0 = 0
+
+                1 x 1 = 1
+
+                2 x 2 = 4
+
+                3 x 3 = 9
+
+                4 x 4 = 16
+
+                5 x 5 = 25
+
+                6 x 6 = 36
+
+                7 x 7 = 49
+
+                8 x 8 = 64
+
+                9 x 9 = 81
+
+                10 x 10= 100
+
+            Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+
+            Use for loop to iterate from 0 to 100 and print only even numbers
+            
+            Use for loop to iterate from 0 to 100 and print only odd numbers
+
+            Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+                output: The sum of all numbers is 5050.
+
+            Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+                output: The sum of all evens is 2550. And the sum of all odds is 2500.
+
+----------------------------------------------------------------------------------------------------------------------------------------
