@@ -319,6 +319,30 @@ Python Control Statements Questions:
                 output: The sum of all numbers is 5050.
 
             Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Python OOPS questions:
+        Question: Create a class called Rectangle with attributes length and width. Implement methods to calculate the area and perimeter of the rectangle.
+
+        Question: Create a class called Circle with attribute radius. Implement methods to calculate the area and circumference of the circle.
+
+        Question: Create a class called Employee with attributes name, age, and salary. Implement a method called increase_salary that takes a percentage increase as input and updates the employee's salary accordingly.
+
+        Question: Create a class called BankAccount with attributes account_number, holder_name, and balance. Implement methods to deposit and withdraw funds from the account.
+
+        Question: Create a class called Car with attributes  model, and year. Implement a method called start_engine that prints a message indicating the car has started.
+
+        Question: Create a class called Student with attributes name, age, and grades (a list of integers). Implement methods to calculate the average grade and determine if the student has passed (average grade >= 60).
+
+        Question: Create a class called Book with attributes title, author, and year. Implement a method called get_age that returns the age of the book (current year - publication year).
+
+        Question: Create a class called Shape with an abstract method called calculate_area. Create two subclasses Rectangle and Triangle that inherit from Shape and implement the calculate_area method accordingly.
+
+        Question: Create a class called Person with attributes name and address. Create a subclass Student that inherits from Person and adds an attribute student_id. Implement a method in the Student class to display student information.
+
+        Question: Create a class called Bank with a dictionary attribute accounts, where the keys are account numbers and the values are instances of a BankAccount class. Implement methods to add accounts, retrieve account information, and perform transactions like deposit and withdrawal.
                 output: The sum of all evens is 2550. And the sum of all odds is 2500.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
