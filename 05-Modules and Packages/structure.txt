@@ -1,9 +1,9 @@
 00-Modules_and_Packages
    f- MyMainPacakage
-	f- SubPacakge
-		__init__.py
-		mysubscript.py
-	__init__.py
-        some_main_script.py
+      f- SubPacakge
+         __init__.py
+         mysubscript.py
+      __init__.py
+      some_main_script.py
    mymodule.py
    myprogram.py

@@ -1,5 +1,5 @@
 import streamlit as st
-from game import RockPaperScissors
+from game import RockPaperScissors 
 
 # Set page title and configure layout
 st.set_page_config(page_title="Rock Paper Scissors", layout="centered")
@@ -8,7 +8,7 @@ st.set_page_config(page_title="Rock Paper Scissors", layout="centered")
 st.title("Rock Paper Scissors Game")
 st.write("Choose your move and see if you can beat the computer!")
 
-# Create an instance of the game
+# Create an instance o f the game
 game = RockPaperScissors()
 
 # Get user input
