@@ -343,6 +343,6 @@ Python OOPS questions:
         Question: Create a class called Person with attributes name and address. Create a subclass Student that inherits from Person and adds an attribute student_id. Implement a method in the Student class to display student information.
 
         Question: Create a class called Bank with a dictionary attribute accounts, where the keys are account numbers and the values are instances of a BankAccount class. Implement methods to add accounts, retrieve account information, and perform transactions like deposit and withdrawal.
-                output: The sum of all evens is 2550. And the sum of all odds is 2500.
+                
 
 ----------------------------------------------------------------------------------------------------------------------------------------
