@@ -46,3 +46,11 @@ Interview Attitude questions:
 	https://media.licdn.com/dms/document/media/D4D1FAQHrcriDptGO6w/feedshare-document-pdf-analyzed/0/1690121519144?e=1691020800&v=beta&t=AqNzG3xBT1-E_-QueK4ndbdffS4gXPeRpVDeRmvPZ8U
 
 
+Pratice Programs:
+	https://www.hackerrank.com/domains/python
+
+	https://www.w3resource.com/python-exercises/python-basic-exercises.php
+
+
+Youtube Materials:
+	https://youtube.com/playlist?list=PLzgPDYo_3xulOYHoVsg7uASoF-OE3GE-S
