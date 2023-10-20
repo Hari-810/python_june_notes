@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar  3 20:06:28 2018
-
-@author: vivekkalyanarangan
-"""
 from flask import Flask, request
 from flasgger import Swagger
 import numpy as np
