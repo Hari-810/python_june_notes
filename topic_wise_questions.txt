@@ -244,8 +244,6 @@ Python Conditional Statements Questions
 
                 * If a person skills has only JavaScript and React, print('He is a front end developer'), if the person skills has Node, Python, MongoDB, print('He is a backend developer'), if the person skills has React, Node and MongoDB, Print('He is a fullstack developer'), else print('unknown title') - for more accurate results more conditions can be nested!
 
-                * If the person is married and if he lives in Finland, print the information in the following format:
-
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Python Control Statements Questions:
@@ -354,37 +352,6 @@ Python Function Problems:
         Problem: Write a Python function called is_anagram that takes two strings as input and returns True if they are anagrams (contain the same characters in a different order), False otherwise.
 
         Problem: Write a Python function called merge_sorted_lists that takes two sorted lists as input and returns a new list that merges the two lists while maintaining the sorted order.
-
-        Problem: Write a Python function called calculate_average that takes a list of numbers as input and returns their average.
-
-        Problem: Write a Python function called find_largest that takes a list of numbers as input and returns the largest number in the list.
-
-        Problem: Write a Python function called reverse_string that takes a string as input and returns the reverse of the string.
-
-        Problem: Write a Python function called count_vowels that takes a string as input and returns the count of vowels (a, e, i, o, u) in the string.
-
-        Problem: Write a Python function called is_prime that takes an integer as input and returns True if it is a prime number, False otherwise.
-
-        Problem: Write a Python function called remove_duplicates that takes a list as input and returns a new list with duplicates removed.
-
-        Problem: Write a Python function called factorial that takes a positive integer as input and returns its factorial.
-
-        Problem: Write a Python function called is_palindrome that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), False otherwise.
-
-        Problem: Write a Python function called find_common_elements that takes two lists as input and returns a new list containing the common elements between the two lists.
-
-        Problem: Write a Python function called binary_search that takes a sorted list and a target value as input and returns the index of the target value in the list, or -1 if it is not found.
-
-        Problem: Write a Python function called capitalize_words that takes a sentence as input and returns the sentence with the first letter of each word capitalized.
-
-        Problem: Write a Python function called find_missing_number that takes a list of consecutive numbers (with one number missing) as input and returns the missing number.
-
-        Problem: Write a Python function called find_longest_word that takes a sentence as input and returns the longest word in the sentence.
-
-        Problem: Write a Python function called is_anagram that takes two strings as input and returns True if they are anagrams (contain the same characters in a different order), False otherwise.
-
-        Problem: Write a Python function called merge_sorted_lists that takes two sorted lists as input and returns a new list that merges the two lists while maintaining the sorted order.
-
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------

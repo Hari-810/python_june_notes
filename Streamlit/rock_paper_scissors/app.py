@@ -1,9 +1,10 @@
+#pip install streamlit
+
 import streamlit as st
 from game import RockPaperScissors 
 
 # Set page title and configure layout
 st.set_page_config(page_title="Rock Paper Scissors", layout="centered")
-
 # Display application title and description
 st.title("Rock Paper Scissors Game")
 st.write("Choose your move and see if you can beat the computer!")
