@@ -1,0 +1,127 @@
+create a console-level application that allows users to manage a simple to-do list. Users can add tasks, view existing tasks, mark tasks as completed, and delete tasks. We'll use file handling techniques to store the tasks in a text file.
+
+Here's how the application might work:
+
+When the application starts, it checks if the task file exists. If not, it creates a new file to store tasks.
+
+The user is presented with a menu of options:
+
+    Add a new task
+    View existing tasks
+    Mark a task as completed
+    Delete a task
+    Exit the application
+
+Based on the user's selection, the application performs the corresponding action.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import os
+
+# File path to store tasks
+TASK_FILE = 'tasks.txt'
+
+def create_task_file():
+    """Create a new task file if it doesn't exist."""
+    if not os.path.exists(TASK_FILE):
+        with open(TASK_FILE, 'w') as file:
+            pass  # Create an empty file
+
+def add_task(task):
+    """Add a new task to the task file."""
+    with open(TASK_FILE, 'a') as file:
+        file.write(task + '\n')
+
+def view_tasks():
+    """View existing tasks."""
+    if os.path.exists(TASK_FILE):
+        with open(TASK_FILE, 'r') as file:
+            tasks = file.readlines()
+            if tasks:
+                print("Tasks:")
+                for index, task in enumerate(tasks, start=1):
+                    print(f"{index}. {task.strip()}")
+            else:
+                print("No tasks.")
+    else:
+        print("No tasks.")
+
+# Define other functions for marking tasks as completed and deleting tasks
+
+def main():
+    """Main function to run the application."""
+    create_task_file()
+    while True:
+        print("\nMenu:")
+        print("1. Add a new task")
+        print("2. View existing tasks")
+        print("3. Mark a task as completed")
+        print("4. Delete a task")
+        print("5. Exit")
+        
+        choice = input("Enter your choice: ")
+        
+        if choice == '1':
+            task = input("Enter the task: ")
+            add_task(task)
+            print("Task added.")
+        elif choice == '2':
+            view_tasks()
+        # Add other options for marking tasks as completed, deleting tasks, and exiting the application
+        elif choice == '5':
+            print("Exiting...")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()

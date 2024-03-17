@@ -1,0 +1,1 @@
+Using print function to write to a file.
