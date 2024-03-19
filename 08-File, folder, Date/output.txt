@@ -1,1 +1,3 @@
-Using print function to write to a file.
+First line.
+Second line.
+Third line.

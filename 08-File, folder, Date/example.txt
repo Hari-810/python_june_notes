@@ -1,1 +1,1 @@
-line-1line-2line-3line-4
+The seek() and tell() functions are used in Python to control the current position within a file and to determine the current position, respectively.

@@ -1,0 +1,3 @@
+This method is called on the file object f to close the file once you're done
+working with it. It's important to close the file to release system resources and 
+ensure that all data is written to the file.
