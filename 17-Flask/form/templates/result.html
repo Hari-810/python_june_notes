@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+   <head>
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'hello.js') }}" ></script>
+   </head>
+   <body>
+      <table border = 1>
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+
+   <h1><em>average mark =  {{avg_result}}</em><h1>
+
+   {% if avg_result>80 %}    
+   <h1> You Scored good mark</h1>
+   {% else %}
+      <h1>Your result is awesome keep going </h1>
+   {% endif %}
+
+   <input type = "button" onclick = "sayHello()" value = "click here" />
+   </body>  
+</html>
