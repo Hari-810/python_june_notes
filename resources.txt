@@ -51,6 +51,7 @@ Pratice Programs:
 Youtube Materials:
 	https://youtube.com/playlist?list=PLzgPDYo_3xulOYHoVsg7uASoF-OE3GE-S
 
+	https://youtu.be/PMFd95RgIwE?si=sV1ks_jzGvySpFZr
 
 MCQ questions:
 	https://www.sanfoundry.com/1000-python-questions-answers/
