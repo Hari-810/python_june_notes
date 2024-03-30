@@ -9,7 +9,7 @@ def hello_world():
 
 
 @app.route("/firstpage")
-def hello_world():
+def first_page():
   # Function to handle GET requests to the root path "/"
   return "This is your first page"
 
