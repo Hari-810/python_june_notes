@@ -15,7 +15,10 @@ Binary code work
 Programming vs Coding
     https://www.youtube.com/watch?v=CIRGjwYgdT4
 
+    https://www.youtube.com/live/LA2LIBZGink?si=2lDFNPOqHes-r9tX
 
+Flowcharts:
+    https://youtube.com/playlist?list=PLMQ4k-hUWGNl-_4tGH-2Gq-06yZbzl5az&si=AZnNvcZSF6zDwvx-
 
 Visualizers:
     https://algorithm-visualizer.org/
@@ -55,3 +58,6 @@ Youtube Materials:
 
 MCQ questions:
 	https://www.sanfoundry.com/1000-python-questions-answers/
+
+CheatSheet:
+	https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
