@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask MongoDB CRUD App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <!-- 
+        {{ url_for('static', filename='styles.css') }} is a Flask template expression that dynamically generates the correct URL for the styles.
+        css file located in the static directory
+     -->
+</head>
+<body>
+    <div class="container">
+        <h1>Flask MongoDB CRUD Application</h1>
+
+        <h2>Create Document</h2>
+        <form id="create-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Create</button>
+        </form>
+
+        <h2>Documents</h2>
+        <div id="documents"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- 
+        {{ url_for('static', filename='script.js') }} is a Flask template expression that dynamically generates the correct URL for the script.js file located in the static directory
+     -->
+
+</body>
+</html>
