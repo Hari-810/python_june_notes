@@ -31,6 +31,8 @@ Visualizers:
 
     https://pythontutor.com/visualize.html#mode=display
 
+    https://youtu.be/lYbATjjjDxM?si=rWJjvZmNjrWRNW5g
+
 
 basic projects:
         https://youtu.be/DLn3jOsNRVE
