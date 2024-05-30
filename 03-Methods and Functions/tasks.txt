@@ -1,0 +1,48 @@
+# Application 01:
+
+    Steps to Create the Contact Manager Application
+
+
+        1. Define the menu: Display the options available to the user.
+
+        2. Define functions for each operation:
+            View contacts
+            Add a new contact
+            Search for a contact
+            Delete a contact
+
+        3. Implement the main loop: Continuously prompt the user to choose an option and perform the corresponding action until they choose to exit.
+
+
+Expected functios:
+        display_menu(): Prints the main menu.
+        view_contacts(contacts): Displays all contacts.
+        add_contact(contacts): Prompts the user to enter a name and phone number, then adds the contact to the dictionary.
+        search_contact(contacts): Searches for a contact by name and displays the phone number if found.
+        delete_contact(contacts): Deletes a contact by name if it exists in the dictionary.
+        main(): Runs the main loop, displaying the menu and handling user input to perform the appropriate actions.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Application 02:
+
+    Note-Taking Application:
+
+        1. Define the menu: Display the options available to the user.
+
+        2. Define functions for each operation:
+            View notes
+            Add a new note
+            Search for a note by title
+            Delete a note
+        
+        3. Implement the main loop: Continuously prompt the user to choose an option and perform the corresponding action until they choose to exit.
+
+Expected functios:
+        display_menu(): Prints the main menu.
+        view_notes(notes): Displays all notes with their titles and contents.
+        add_note(notes): Prompts the user to enter a note title and content, then adds the note to the dictionary.
+        search_note(notes): Searches for a note by its title and displays the content if found.
+        delete_note(notes): Deletes a note by its title if it exists in the dictionary.
+        main(): Runs the main loop, displaying the menu and handling user input to perform the appropriate actions.
