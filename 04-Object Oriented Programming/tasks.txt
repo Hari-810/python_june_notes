@@ -1,0 +1,43 @@
+Task 01 : Library Management System
+
+    Objective:
+        Develop a simple console-based application to manage a library's collection of books, 
+        including functionalities for adding, removing, updating, and searching for books, 
+        as well as managing library members and their borrowed books.
+
+    Key Features:
+        Book Management:
+
+            Add a new book.
+            Remove a book.
+            Update book details.
+            Search for books by title, author, or ISBN.
+
+        Member Management:
+
+            Add a new member.
+            Remove a member.
+            Update member details.
+        
+        Borrow and Return Books:
+
+            Borrow a book.
+            Return a book.
+            Check borrowed books for a member
+
+    
+    Classes and Relationships:
+        Book Class:
+
+            Attributes: title, author, ISBN, year, available_copies.
+            Methods: add_book(), remove_book(), update_book(), search_book().
+
+        Member Class:
+
+            Attributes: name, member_id, contact_info, borrowed_books.
+            Methods: add_member(), remove_member(), update_member(), view_borrowed_books().
+
+        Library Class:
+
+            Attributes: books, members.
+            Methods: borrow_book(), return_book(), list_books(), list_members().
