@@ -1,0 +1,50 @@
+Objective:
+    Develop a console-based application for managing a movie rental store's collection of movies. 
+    The application should provide functionalities for adding, removing, renting, and returning movies, 
+    as well as handling user interactions and error conditions.
+
+Key Features:
+    Movie Management:
+
+        Add a new movie.
+        Remove a movie.
+        Rent a movie.
+        Return a movie.
+        List all available movies.
+
+    Error and Exception Handling:
+
+        Handle cases where a movie is already rented out.
+        Handle cases where a movie doesn't exist.
+        Handle cases where a user tries to rent more movies than allowed.
+        Validate user inputs for non-empty strings and numerical values.
+
+Classes and Relationships:
+    Movie Class:
+
+        Attributes: title, genre, director, release_year, rented.
+        Methods: __init__(), rent_movie(), return_movie().
+
+    RentalStore Class:
+
+        Attributes: movies, max_movies_per_user.
+        Methods: __init__(), add_movie(), remove_movie(), list_movies(), rent_movie(), return_movie().
+
+    Custom Exceptions:
+
+        MovieAlreadyRentedError: Raised when a user tries to rent an already rented movie.
+        MovieNotFoundError: Raised when a user tries to rent or return a non-existent movie.
+        ExceededMaxMoviesError: Raised when a user tries to rent more movies than allowed.
+    
+    Input Validation Functions:
+
+        validate_input(): Ensures that user inputs are non-empty strings.
+        validate_integer(): Ensures that numerical inputs are within specified ranges.
+
+Steps to Complete the Code:
+    1. Define the Movie class with attributes and methods to manage movie rental operations.
+    2. Implement the RentalStore class with methods for managing the collection of movies.
+    3. Define custom exceptions to handle specific error conditions related to movie rental operations.
+    4. Implement input validation functions to validate user inputs.
+    5. Create example usage scenarios to demonstrate the functionalities of the movie rental store application.
+    6. Test the application by adding, removing, renting, and returning movies, while handling error conditions and validating user inputs.
