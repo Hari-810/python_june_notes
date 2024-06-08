@@ -41,3 +41,56 @@ Task 01 : Library Management System
 
             Attributes: books, members.
             Methods: borrow_book(), return_book(), list_books(), list_members().
+
+
+
+Task 02: Banking System
+
+    Objective:
+            Create a console-based banking system to manage different types of accounts (savings, checking, and fixed deposit), allowing operations like deposit, withdrawal, and checking balance.
+
+    Key Features:
+        
+        Account Management:
+
+            Create different types of accounts (Savings, Checking, Fixed Deposit).
+            Deposit money.
+            Withdraw money.
+            Check balance.
+            Calculate interest (for Savings and Fixed Deposit accounts).
+        
+        Transaction Management:
+
+            Maintain transaction history.
+            Generate account statements.
+
+    Classes and Relationships:
+
+        Account (Abstract Base Class):
+
+            Attributes: account_number, account_holder, balance.
+            Methods: deposit(), withdraw(), get_balance(), add_transaction().
+
+        SavingsAccount (Inherits from Account):
+
+            Additional Attributes: interest_rate.
+            Methods: calculate_interest().
+
+        CheckingAccount (Inherits from Account):
+
+            Additional Attributes: overdraft_limit.
+            Methods: withdraw() (override).
+
+        FixedDepositAccount (Inherits from Account):
+
+            Additional Attributes: maturity_date, interest_rate.
+            Methods: calculate_interest().
+
+        Transaction:
+
+            Attributes: transaction_type, amount, date, balance_after_transaction.
+    
+        Bank:
+
+            Attributes: accounts.
+            Methods: create_account(), get_account(), list_accounts().
