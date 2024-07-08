@@ -1,5 +1,12 @@
-6 Levels of Thinking:
-    https://youtu.be/1xqerXscTsE?si=y6uB0bDrPBxaWpjO	
+What is git and github
+What is version control
+What is Github desktop
+What is Cloud
+What is Hosting
+What is Linux os/ windows os
+What is Command prompt
+What is Powershell
+Script language vs programming languages
 
 Blog:
     https://www.geeksforgeeks.org/how-to-approach-a-coding-problem/
@@ -68,3 +75,34 @@ MCQ questions:
 
 CheatSheet:
 	https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
+
+
+6 Levels of Thinking:
+    https://youtu.be/1xqerXscTsE?si=y6uB0bDrPBxaWpjO	
+
+	template 01:
+
+		"Give me questions that [academic year] engineering level for [programming language] programming functions in Bloom's Taxonomy at level [Bloom's level]."
+
+		Replace the variables as follows:
+
+		[academic year]: Specify the academic year, e.g., "first-year".
+		[programming language]: Specify the programming language, e.g., "Python".
+		[Bloom's level]: Specify the Bloom's Taxonomy level, e.g., "4" for Analyzing.
+		Example using the template:
+
+		"Give me questions that first-year engineering level for Python programming functions in Bloom's Taxonomy at level 4."
+
+
+	template 02:
+
+		"Give me questions that [difficulty/proficiency level] for [programming language] programming functions in Bloom's Taxonomy at level [Bloom's level]."
+
+		Replace the variables as follows:
+
+		[difficulty/proficiency level]: Choose a term that indicates the difficulty or proficiency level, e.g., "Beginner level".
+		[programming language]: Specify the programming language, e.g., "Python".
+		[Bloom's level]: Specify the Bloom's Taxonomy level, e.g., "4" for Analyzing.
+		Example using the template:
+
+		"Give me questions that Beginner level for Python programming functions in Bloom's Taxonomy at level 4."
