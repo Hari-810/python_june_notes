@@ -70,6 +70,9 @@ Youtube Materials:
 
 	https://youtu.be/PMFd95RgIwE?si=sV1ks_jzGvySpFZr
 
+Hackerank:
+	https://www.youtube.com/playlist?list=PL_8jNcohs27XQfEmWAHCgLFqpsNaWxUSe
+
 MCQ questions:
 	https://www.sanfoundry.com/1000-python-questions-answers/
 
