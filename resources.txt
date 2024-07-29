@@ -73,6 +73,15 @@ Youtube Materials:
 Hackerank:
 	https://www.youtube.com/playlist?list=PL_8jNcohs27XQfEmWAHCgLFqpsNaWxUSe
 
+LeetCode DataStructures:
+	https://leetcode.com/studyplan/top-interview-150/
+
+	https://leetcode.com/studyplan/dynamic-programming/
+
+	https://www.youtube.com/@TheAdityaVerma/playlists
+
+	https://www.youtube.com/@NeetCode/playlists
+
 MCQ questions:
 	https://www.sanfoundry.com/1000-python-questions-answers/
 
