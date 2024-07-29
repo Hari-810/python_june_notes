@@ -9,9 +9,9 @@ class TestCap(unittest.TestCase):
         self.assertEqual(result, 'Python')
         
     def test_multiple_words(self):
-        text = 'monty python'
+        text = 'hi python'
         result = cap.cap_text(text)
-        self.assertEqual(result, 'Monty Python')
+        self.assertEqual(result, 'Hi Python')
         
 if __name__ == '__main__':
     unittest.main()
