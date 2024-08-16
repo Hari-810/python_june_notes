@@ -57,6 +57,7 @@ github upload file:
 
 streamlit project:
         https://youtu.be/VqgUkExPvLY
+		https://youtube.com/playlist?list=PLuU3eVwK0I9PT48ZBYAHdKPFazhXg76h5&si=m8MHGJ4olsn7w4Tl
 
 
 Pratice Programs:
