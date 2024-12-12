@@ -13,6 +13,8 @@ def view_tasks(tasks):
     else:
         print("\nTasks:")
         for task_id, task_details in tasks.items():
+            print(task_details)
+            print(task_id)
             status = "Done" if task_details['done'] else "Not Done"
             print(f"{task_id}. {task_details['description']} ({status})")
 

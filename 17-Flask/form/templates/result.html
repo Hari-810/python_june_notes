@@ -8,7 +8,7 @@
       <table border = 1>
          {% for key, value in result.items() %}
             <tr>
-               <th> {{ key }} </th>
+               <th> {{ key.upper() }} </th>
                <td> {{ value }} </td>
             </tr>
          {% endfor %}

@@ -54,5 +54,5 @@ def delete_user(uid):
     return redirect(url_for("index"))
     
 if __name__=='__main__':
-    app.secret_key = "admin@123"
+    app.secret_key = "admin@12345"
     app.run(debug=True)

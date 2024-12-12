@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/hello")
 def hello_world():
   # Function to handle GET requests to the root path "/"
   return "Hello from Flask! This is a GET request."

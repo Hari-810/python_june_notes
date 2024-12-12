@@ -40,6 +40,7 @@ elif operation == "Division":
 # Display the result
 st.write("Result:", result)
 
+st.balloons()
 """
 The code begins by importing the necessary libraries, streamlit.
 The mathematical operations (addition, subtraction, multiplication, and division) are defined as separate functions to perform the respective calculations.
