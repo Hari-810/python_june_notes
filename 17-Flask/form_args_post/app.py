@@ -19,3 +19,15 @@ def process_form():
 
 if __name__ == '__main__':
     app.run(debug=True)
+"""
+
+---
+
+### **When to Use Each?**
+| Scenario | Use |
+|----------|-----|
+| Retrieving **URL parameters** (e.g., `/search?q=flask`) | `request.args.get()` |
+| Retrieving **form data** submitted via `POST` | `request.form.get()` |
+| If unsure whether the data comes from **query parameters or form data** | `request.values.get()` (checks both) |
+
+"""
