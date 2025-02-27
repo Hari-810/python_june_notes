@@ -65,6 +65,8 @@ Pratice Programs:
 
 	https://www.w3resource.com/python-exercises/python-basic-exercises.php
 
+Flask App:
+	https://youtu.be/XTpLbBJTOM4?si=uuyO9kfDJqP3z81A
 
 Youtube Materials:
 	https://youtube.com/playlist?list=PLzgPDYo_3xulOYHoVsg7uASoF-OE3GE-S
