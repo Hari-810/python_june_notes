@@ -15,13 +15,6 @@ def get_external_posts():
     except requests.RequestException as e:
         return jsonify({"status": "error", "message": str(e)}), 500
 
-@app.route('/api/echo', methods=['POST'])
-def post_echo():
-    if not request.is_json:
-        return jsonify({"status": "error", "message": "Invalid JSON"}), 400
-    data = request.get_json()
-    return jsonify({"status": "success", "received": data}), 200
-
 @app.route('/api/post/<int:post_id>', methods=['GET'])
 def get_single_post(post_id):
     try:
@@ -91,17 +84,13 @@ curl http://127.0.0.1:5000/api/post/1
 **3. Create a Post**
 
 ```bash
-curl -X POST http://127.0.0.1:5000/api/posts \
-     -H "Content-Type: application/json" \
-     -d '{"title": "New Title", "body": "Post body", "userId": 1}'
+curl -X POST http://127.0.0.1:5000/api/posts -H "Content-Type: application/json" -d '{"title": "New Title", "body": "Post body", "userId": 1}'
 ```
 
 **4. Update a Post**
 
 ```bash
-curl -X PUT http://127.0.0.1:5000/api/post/1 \
-     -H "Content-Type: application/json" \
-     -d '{"title": "Updated Title", "body": "Updated body", "userId": 1}'
+curl -X PUT http://127.0.0.1:5000/api/post/1 -H "Content-Type: application/json" -d "{\"title\": \"Updated Title\", \"body\": \"Updated body\", \"userId\": 1}"
 ```
 
 **5. Delete a Post**
@@ -110,14 +99,5 @@ curl -X PUT http://127.0.0.1:5000/api/post/1 \
 curl -X DELETE http://127.0.0.1:5000/api/post/1
 ```
 
-**6. Echo JSON**
-
-```bash
-curl -X POST http://127.0.0.1:5000/api/echo \
-     -H "Content-Type: application/json" \
-     -d '{"message": "Hello, world!"}'
-```
-
----
 
 """
